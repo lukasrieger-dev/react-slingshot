@@ -35,6 +35,7 @@ jobs:
       - run: npm audit
 
 workflows:
+  ci_flow:
     jobs:
       - build
       - test:
